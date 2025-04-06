@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { gapi } from "gapi-script";
 
-const CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID"; // Replace with your Google API Client ID
-const API_KEY = "YOUR_GOOGLE_API_KEY"; // Replace with your Google API Key
+
+const CLIENT_ID = "546588861367-gc46u7729078m5rbutq4hb91pi190dla.apps.googleusercontent.com"; // Replace with your Google API Client ID
+const API_KEY = "AIzaSyAXBv-lndzQ1Z1aiY3Qv13FFO8hgDSt0dsAIzaSyAXBv-lndzQ1Z1aiY3Qv13FFO8hgDSt0ds"; // Replace with your Google API Key
 const SCOPES = "https://www.googleapis.com/auth/calendar.events";
 
 const App: React.FC = () => {
